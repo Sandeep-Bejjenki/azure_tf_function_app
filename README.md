@@ -80,8 +80,8 @@ module "function_app_insights" {
     module.app_service_plan
   ]
 }
-
-## Inputs
+```
+### Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
@@ -99,7 +99,7 @@ module "function_app_insights" {
 | appinsights\_app\_type | Type of Application Insights | `string` | `""` | yes |
 | function\_app\_name | Name of Function App | `string` | `""` | yes |
 
-## Outputs
+### Outputs
 
 | Name | Description |
 |------|-------------|
