@@ -1,0 +1,18 @@
+environment = "dev"
+tags = {
+  created_by  = "devops_team"
+  cost_center = "hyd-cld-008"
+  owner       = "infra-team"
+  environment = "development"
+}
+resource_group_name         = "functionapp"
+location                    = "eastus"
+str_account_name            = "straccnt"
+str_account_tier            = "Standard"
+sa_account_replication_type = "LRS"
+app_ser_plan_name           = "functionapp"
+app_ser_pln_tier            = "Standard"
+app_ser_pln_size            = "S1"
+app_insights_name           = "funtion-app-insights"
+appinsights_app_type        = "web"
+function_app_name           = "dotnet-functions-app"
